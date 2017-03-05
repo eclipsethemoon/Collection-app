@@ -12,7 +12,6 @@ export class MarketComponent implements OnInit {
 
   onAddToCollection(item: Collectable) {
     this.collectableService.addToCollection(item);
-    alert ("hee");
   }
 
   constructor(private collectableService: CollectableService) { }
